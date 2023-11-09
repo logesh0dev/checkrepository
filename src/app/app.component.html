@@ -1,0 +1,30 @@
+<div>
+
+
+  <nav class="navbar navbar-expand-sm bg-success navbar-dark no-wrap ">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="#" data-target="#sidebar" (click)="changesiebar()" data-toggle="collapse"><i
+          class="text-dark fa fa-navicon fa-lg py-2 p-1"></i></a><span>App</span>
+      
+      </li>
+    </ul>
+  </nav>
+
+  <div class="sidebar" id="side" >
+    <!-- <a >Home</a> -->
+    <a (click)="routeto()" class="active"  >Employee</a>
+    <!-- <a (click)="routeto1()" class="active"  >Employee Add</a> -->
+
+    <!-- <a >Contact</a>
+    <a >About</a> -->
+  </div>
+  
+  <!-- Page content -->
+  <div class="content" id="wholecontent" >
+    <router-outlet></router-outlet>
+  </div>
+
+
+
+</div>
