@@ -121,7 +121,7 @@
 }
 
 .contentdiv{
-  min-height: 46vh;
+  min-height: 45vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,7 +137,7 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 0px 16px;
+  padding: 5px 16px;
   text-decoration: none;
  
   cursor: pointer;
@@ -171,6 +171,11 @@
 
 .topnav .icon {
   display: none;
+}
+
+
+.transistioneffect{
+ transition: transform .5s
 }
 
 @media screen and (max-width: 600px) {

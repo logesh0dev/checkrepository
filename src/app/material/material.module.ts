@@ -31,7 +31,7 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
 import {CdkTableModule} from '@angular/cdk/table';
 import {CdkTreeModule} from '@angular/cdk/tree';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
-// import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 import {CdkAccordionModule} from '@angular/cdk/accordion';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatStepperModule} from '@angular/material/stepper';
@@ -53,7 +53,7 @@ const MaterialComponents = [
   MatButtonToggleModule,MatTabsModule,MatSliderModule,MatStepperModule,
   MatChipsModule,MatToolbarModule,MatExpansionModule, DragDropModule, CdkTableModule, CdkTreeModule,
   MatProgressBarModule, CdkAccordionModule, MatBadgeModule,
-  MatSlideToggleModule
+  MatSlideToggleModule,PdfViewerModule
 ];
 
 @NgModule({

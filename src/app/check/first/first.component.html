@@ -1,5 +1,5 @@
 <div class="wholediv ">
-    <div class="searchbardiv" class="shadow p-4 m-2 bg-white rounded">
+    <div class="searchbardiv" class="shadow p-4 m-2 text-white rounded">
         <div>
             <h1 class="mb-3">Employee Summary</h1>
 
@@ -47,12 +47,12 @@
         </div>
 
     </div>
-    <div class="searchbardiv" class="shadow p-4 m-2 bg-white rounded">
+    <div class="searchbardiv" class="shadow p-4 m-2 rounded text-white ">
         <div>
             <h1 class="mb-3">Employees</h1>
             <div class="m-2 table-responsive ">
                 <table class="table table-striped">
-                    <tr>
+                    <tr class="text-white" >
                         <th>S.No</th>
                         <th>Name</th>
                         <th>Age</th>
@@ -62,7 +62,7 @@
                         <th>Address</th>
                         <th>Action</th>
                     </tr>
-                    <tr *ngFor="let emp of empdata;let i=index">
+                    <tr class="text-white" *ngFor="let emp of empdata;let i=index">
                         <td>{{i+1}}</td>
                         <td>{{emp.name}}</td>
                         <td>{{emp.age}}</td>

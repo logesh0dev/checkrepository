@@ -11,6 +11,8 @@ import { MAT_FORM_FIELD_DEFAULT_OPTIONS, MatFormFieldDefaultOptions } from '@ang
 import { HttpClientModule } from '@angular/common/http';
 
 import { ToastrModule, ToastrService } from 'ngx-toastr';
+import { AboutComponent } from './about/about.component';
+import { ResumeComponent } from './resume/resume.component';
 
 const appearance: MatFormFieldDefaultOptions = {
   appearance: 'outline'
@@ -18,7 +20,9 @@ const appearance: MatFormFieldDefaultOptions = {
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    AboutComponent,
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
